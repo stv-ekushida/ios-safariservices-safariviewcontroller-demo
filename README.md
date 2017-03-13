@@ -21,7 +21,7 @@ UIViewViewController
 
 ## サンプル
 
-```
+```swift:ViewController.swift
 import UIKit
 import SafariServices
 
