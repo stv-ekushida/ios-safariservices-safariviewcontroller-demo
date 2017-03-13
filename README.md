@@ -4,7 +4,7 @@
 アプリ内で外部ブラウザを開きたいときに利用します。
 
 ## 関連クラス
-UIViewViewController
+UIViewController
 
 ## 主要プロパティ
 
