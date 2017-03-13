@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCEFFE491E76EB3F00DACB39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFFE481E76EB3F00DACB39 /* AppDelegate.swift */; };
+		BCEFFE4B1E76EB3F00DACB39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFFE4A1E76EB3F00DACB39 /* ViewController.swift */; };
+		BCEFFE4E1E76EB3F00DACB39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEFFE4C1E76EB3F00DACB39 /* Main.storyboard */; };
+		BCEFFE501E76EB3F00DACB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEFFE4F1E76EB3F00DACB39 /* Assets.xcassets */; };
+		BCEFFE531E76EB3F00DACB39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEFFE511E76EB3F00DACB39 /* LaunchScreen.storyboard */; };
+		BCEFFE5E1E76EB3F00DACB39 /* ios_safari_service_safariviewcontroller_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFFE5D1E76EB3F00DACB39 /* ios_safari_service_safariviewcontroller_demoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCEFFE5A1E76EB3F00DACB39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEFFE3D1E76EB3F00DACB39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEFFE441E76EB3F00DACB39;
+			remoteInfo = "ios-safari-service-safariviewcontroller-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCEFFE451E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-safari-service-safariviewcontroller-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEFFE481E76EB3F00DACB39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCEFFE4A1E76EB3F00DACB39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCEFFE4D1E76EB3F00DACB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCEFFE4F1E76EB3F00DACB39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCEFFE521E76EB3F00DACB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCEFFE541E76EB3F00DACB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEFFE591E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-safari-service-safariviewcontroller-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEFFE5D1E76EB3F00DACB39 /* ios_safari_service_safariviewcontroller_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_safari_service_safariviewcontroller_demoTests.swift; sourceTree = "<group>"; };
+		BCEFFE5F1E76EB3F00DACB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEFFE421E76EB3F00DACB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEFFE561E76EB3F00DACB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCEFFE3C1E76EB3F00DACB39 = {
+			isa = PBXGroup;
+			children = (
+				BCEFFE471E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo */,
+				BCEFFE5C1E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demoTests */,
+				BCEFFE461E76EB3F00DACB39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEFFE461E76EB3F00DACB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFFE451E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo.app */,
+				BCEFFE591E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEFFE471E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFFE481E76EB3F00DACB39 /* AppDelegate.swift */,
+				BCEFFE4A1E76EB3F00DACB39 /* ViewController.swift */,
+				BCEFFE4C1E76EB3F00DACB39 /* Main.storyboard */,
+				BCEFFE4F1E76EB3F00DACB39 /* Assets.xcassets */,
+				BCEFFE511E76EB3F00DACB39 /* LaunchScreen.storyboard */,
+				BCEFFE541E76EB3F00DACB39 /* Info.plist */,
+			);
+			path = "ios-safari-service-safariviewcontroller-demo";
+			sourceTree = "<group>";
+		};
+		BCEFFE5C1E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFFE5D1E76EB3F00DACB39 /* ios_safari_service_safariviewcontroller_demoTests.swift */,
+				BCEFFE5F1E76EB3F00DACB39 /* Info.plist */,
+			);
+			path = "ios-safari-service-safariviewcontroller-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEFFE441E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEFFE621E76EB3F00DACB39 /* Build configuration list for PBXNativeTarget "ios-safari-service-safariviewcontroller-demo" */;
+			buildPhases = (
+				BCEFFE411E76EB3F00DACB39 /* Sources */,
+				BCEFFE421E76EB3F00DACB39 /* Frameworks */,
+				BCEFFE431E76EB3F00DACB39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-safari-service-safariviewcontroller-demo";
+			productName = "ios-safari-service-safariviewcontroller-demo";
+			productReference = BCEFFE451E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCEFFE581E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEFFE651E76EB3F00DACB39 /* Build configuration list for PBXNativeTarget "ios-safari-service-safariviewcontroller-demoTests" */;
+			buildPhases = (
+				BCEFFE551E76EB3F00DACB39 /* Sources */,
+				BCEFFE561E76EB3F00DACB39 /* Frameworks */,
+				BCEFFE571E76EB3F00DACB39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEFFE5B1E76EB3F00DACB39 /* PBXTargetDependency */,
+			);
+			name = "ios-safari-service-safariviewcontroller-demoTests";
+			productName = "ios-safari-service-safariviewcontroller-demoTests";
+			productReference = BCEFFE591E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEFFE3D1E76EB3F00DACB39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kushida　Eiji";
+				TargetAttributes = {
+					BCEFFE441E76EB3F00DACB39 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+					};
+					BCEFFE581E76EB3F00DACB39 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCEFFE441E76EB3F00DACB39;
+					};
+				};
+			};
+			buildConfigurationList = BCEFFE401E76EB3F00DACB39 /* Build configuration list for PBXProject "ios-safari-service-safariviewcontroller-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCEFFE3C1E76EB3F00DACB39;
+			productRefGroup = BCEFFE461E76EB3F00DACB39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEFFE441E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo */,
+				BCEFFE581E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEFFE431E76EB3F00DACB39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFFE531E76EB3F00DACB39 /* LaunchScreen.storyboard in Resources */,
+				BCEFFE501E76EB3F00DACB39 /* Assets.xcassets in Resources */,
+				BCEFFE4E1E76EB3F00DACB39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEFFE571E76EB3F00DACB39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEFFE411E76EB3F00DACB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFFE4B1E76EB3F00DACB39 /* ViewController.swift in Sources */,
+				BCEFFE491E76EB3F00DACB39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEFFE551E76EB3F00DACB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFFE5E1E76EB3F00DACB39 /* ios_safari_service_safariviewcontroller_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCEFFE5B1E76EB3F00DACB39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEFFE441E76EB3F00DACB39 /* ios-safari-service-safariviewcontroller-demo */;
+			targetProxy = BCEFFE5A1E76EB3F00DACB39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCEFFE4C1E76EB3F00DACB39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEFFE4D1E76EB3F00DACB39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCEFFE511E76EB3F00DACB39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEFFE521E76EB3F00DACB39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEFFE601E76EB3F00DACB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCEFFE611E76EB3F00DACB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEFFE631E76EB3F00DACB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-safari-service-safariviewcontroller-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-safari-service-safariviewcontroller-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCEFFE641E76EB3F00DACB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-safari-service-safariviewcontroller-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-safari-service-safariviewcontroller-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCEFFE661E76EB3F00DACB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-safari-service-safariviewcontroller-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-safari-service-safariviewcontroller-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-safari-service-safariviewcontroller-demo.app/ios-safari-service-safariviewcontroller-demo";
+			};
+			name = Debug;
+		};
+		BCEFFE671E76EB3F00DACB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-safari-service-safariviewcontroller-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-safari-service-safariviewcontroller-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-safari-service-safariviewcontroller-demo.app/ios-safari-service-safariviewcontroller-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEFFE401E76EB3F00DACB39 /* Build configuration list for PBXProject "ios-safari-service-safariviewcontroller-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEFFE601E76EB3F00DACB39 /* Debug */,
+				BCEFFE611E76EB3F00DACB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEFFE621E76EB3F00DACB39 /* Build configuration list for PBXNativeTarget "ios-safari-service-safariviewcontroller-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEFFE631E76EB3F00DACB39 /* Debug */,
+				BCEFFE641E76EB3F00DACB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCEFFE651E76EB3F00DACB39 /* Build configuration list for PBXNativeTarget "ios-safari-service-safariviewcontroller-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEFFE661E76EB3F00DACB39 /* Debug */,
+				BCEFFE671E76EB3F00DACB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEFFE3D1E76EB3F00DACB39 /* Project object */;
+}
