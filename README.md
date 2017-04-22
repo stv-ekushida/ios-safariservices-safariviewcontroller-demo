@@ -6,6 +6,12 @@
 ## 関連クラス
 UIViewController
 
+## 主要メソッド
+
+|メソッド名|説明|サンプル|
+|---|---|---|
+|init(url URL: URL, entersReaderIfAvailable: Bool) | リードモードを指定して初期化する |  let vc = SafariViewController(url, entersReaderIfAvailable: true) |
+
 ## 主要プロパティ
 
 |プロパティ名|説明|サンプル|
